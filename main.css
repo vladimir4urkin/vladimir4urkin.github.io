@@ -116,30 +116,11 @@ ul li a {
   border-color: #1f3855;
 }
 
-.container {
-  position: relative;
-  width: 100%;
-
-  border-width: 2px;
-  border-style: solid;
-  border-color: green;
-}
-
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 18px;
-}
-
-img {
-  width: 100%;
-  height: auto;
-
-  border-width: 2px;
-  border-style: solid;
-  border-color: orange;
+.fl {
+  text-transform: uppercase;
+  background-color: grey;
+  color: #315884;
+  font-size: 40px;
 }
 
 footer {
