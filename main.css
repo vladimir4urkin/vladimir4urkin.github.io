@@ -120,6 +120,8 @@ ul li a {
 .land {
   width: 100%;
   background-color: grey;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .t-l {
