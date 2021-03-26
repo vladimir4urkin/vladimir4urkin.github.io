@@ -120,8 +120,10 @@ ul li a {
 .land {
   width: 100%;
   background-color: grey;
+
   border-width: 2px;
   border-style: solid;
+  border-color: green;
 }
 
 .t-l {
@@ -129,6 +131,10 @@ ul li a {
   top: 50%;
   left: 10%;
   transform: translate(-50%, -50%);
+  
+  border-width: 2px;
+  border-style: solid;
+  border-color: green;
 }
 
 footer {
