@@ -122,6 +122,13 @@ ul li a {
   background-color: grey;
 }
 
+.t-l {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
 footer {
   padding: 6px;
   text-align: center;
