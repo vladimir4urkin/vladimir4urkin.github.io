@@ -118,7 +118,6 @@ ul li a {
 
 .land {
   width: 100%;
-  background-color: grey;
 
   border-width: 2px;
   border-style: solid;
@@ -133,7 +132,7 @@ ul li a {
 
   border-width: 2px;
   border-style: solid;
-  border-color: green;
+  border-color: orange;
 }
 
 footer {
