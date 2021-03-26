@@ -116,7 +116,8 @@ ul li a {
   border-color: #1f3855;
 }
 
-.land {
+.container {
+  position: relative;
   width: 100%;
 
   border-width: 2px;
@@ -124,8 +125,17 @@ ul li a {
   border-color: green;
 }
 
-.t-l {
+.center {
+  position: absolute;
   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+  height: auto;
 
   border-width: 2px;
   border-style: solid;
