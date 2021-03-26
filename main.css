@@ -121,6 +121,7 @@ ul li a {
   color: #315884;
   font-size: 40px;
   text-align: left;
+  align-items: flex-start;
 
   border-style: solid;
   border-width: 2px;
