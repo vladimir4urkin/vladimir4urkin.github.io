@@ -71,46 +71,36 @@ ul li a {
 }
 
 .container {
-  display: table;
-  position: relative;
-  background-color: orange;
-
-  border-style: solid;
-  border-width: 2px;
-  border-color: grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 40vh;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.tr {
-  position: absolute;
-  top: 33%;
-  right: 10%;
+.map {
+  width: 100%;
+  padding: 10px 10% 10px 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  color: #1f3855;
+  text-decoration: none;
+}
+
+.map a {
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
+  color: #315884;
+}
+
+h1 {
   font-size: 4vw;
   text-transform: uppercase;
-  text-align: right;
-}
-
-.tl {
-  position: absolute;
-  top: 33%;
-  left: 10%;
-  font-size: 4vw;
-  text-transform: uppercase;
-  text-align: left;
-}
-
-.imgl {
-  display: block;
-  margin-left: 0;
-  width: 50%;
-}
-
-.imgr {
-  width: 50%;
-  right: 0;
-
-  border-style: solid;
-  border-width: 2px;
-  border-color: red;
+  color: #1f3855;
 }
 
 .column:hover {
@@ -156,7 +146,7 @@ ul li a {
   text-transform: uppercase;
   color: #315884;
   font-size: 5vw;
-  padding: 10px;
+  padding: 10px 0% 0% 10%;
 }
 
 
@@ -173,11 +163,11 @@ footer {
   }
 
   .flm {
-    font-size: 50px;
+    font-size: 45px;
   }
 
-  .tr {
-    font-size: 40px;
+  h1 {
+    font-size: 35px;
   }
 }
 
@@ -196,6 +186,11 @@ footer {
   }
 
 
+  .container {
+    height: 25vh;
+  }
+
+
   ul li a {
     font-size: 12px;
     font-weight: 200;
@@ -205,6 +200,7 @@ footer {
 
   .logo {
     width: 25%;
+    height: 70%;
     vertical-align: middle;
     line-height: 30px;
   }
