@@ -100,7 +100,8 @@ ul li a {
 h1 {
   font-size: 4vw;
   text-transform: uppercase;
-  color: #315884;
+  color: #1f3855;
+  font-weight: 500;
 }
 
 .column:hover {
@@ -151,6 +152,7 @@ h1 {
 
 
 footer {
+  font-size: 3vw;
   padding: 6px;
   text-align: center;
   color: white;
@@ -187,7 +189,7 @@ footer {
 
 
   .container {
-    height: 25vh;
+    height: 18vh;
   }
 
 
